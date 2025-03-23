@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flux - Data Analysis System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #333;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .card {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .form-group label {
+            font-weight: 600;
+            color: #fff;
+        }
+        .form-control {
+            border-radius: 8px;
+            border: 1px solid #ced4da;
+            padding: 10px;
+        }
+        .btn-primary {
+            background: #ff6f61;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+        .btn-primary:hover {
+            background: #ff4d3f;
+        }
+        h2, h3 {
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .table {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .table th, .table td {
+            padding: 15px;
+            text-align: center;
+        }
+        .table th {
+            background: #ff6f61;
+            color: #fff;
+            font-weight: 600;
+        }
+        .table-striped tbody tr:nth-of-type(odd) {
+            background: #f8f9fa;
+        }
+        .alert {
+            border-radius: 8px;
+        }
+        a {
+            color: #ff6f61;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #ff4d3f;
+            text-decoration: underline;
+        }
+        .result-section {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>FLUX</h1>
+        </div>
+        <div class="card">
+            <form method="post" action="/process" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="file">Upload File (CSV, Excel, JSON):</label>
+                    <input type="file" class="form-control" id="file" name="file" required>
+                </div>
+                <div class="form-group">
+                    <label for="file_type">File Type:</label>
+                    <select class="form-control" id="file_type" name="file_type">
+                        <option value="csv">CSV</option>
+                        <option value="excel">Excel</option>
+                        <option value="json">JSON</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="filter_col">Filter Column (optional):</label>
+                    <input type="text" class="form-control" id="filter_col" name="filter_col">
+                </div>
+                <div class="form-group">
+                    <label for="filter_value">Filter Value (optional):</label>
+                    <input type="text" class="form-control" id="filter_value" name="filter_value">
+                </div>
+                <button type="submit" class="btn btn-primary">Analyze Data</button>
+            </form>
+        </div>
+
+        {% if results %}
+            <div class="result-section">
+                <h2>Analysis Results</h2>
+                <div class="card">
+                    <h3>Summary Statistics for Numeric Data</h3>
+                    {{ summary_df.to_html(classes='table table-striped', index=False, border=0) | safe }}
+                </div>
+                {% if freq_counts_df is not none %}
+                    <div class="card">
+                        <h3>Frequency Counts for Categorical Data</h3>
+                        {{ freq_counts_df.to_html(classes='table table-striped', index=False, border=0) | safe }}
+                        {% if freq_counts_link %}
+                            <a href="{{ freq_counts_link }}" target="_blank">View Frequency Counts in New Tab</a>
+                        {% endif %}
+                    </div>
+                {% endif %}
+                {% if bar_chart %}
+                    <div class="card">
+                        <h3>Bar Chart</h3>
+                        <a href="{{ url_for('static', filename=bar_chart) }}" target="_blank">View Bar Chart</a>
+                    </div>
+                {% endif %}
+                {% if scatter_plot %}
+                    <div class="card">
+                        <h3>Scatter Plot</h3>
+                        <a href="{{ url_for('static', filename=scatter_plot) }}" target="_blank">View Scatter Plot</a>
+                    </div>
+                {% endif %}
+                {% if pdf_report and excel_report %}
+                    <div class="card">
+                        <h3>Download Reports</h3>
+                        <a href="{{ url_for('static', filename=pdf_report) }}" download>Download PDF Report</a><br>
+                        <a href="{{ url_for('static', filename=excel_report) }}" download>Download Excel Report</a>
+                    </div>
+                {% endif %}
+                {% if table_link %}
+                    <div class="card">
+                        <h3>Processed Data Table</h3>
+                        <a href="{{ table_link }}" target="_blank">View Processed Data Table in New Tab</a>
+                    </div>
+                {% endif %}
+            </div>
+        {% endif %}
+        {% if error %}
+            <div class="alert alert-danger">{{ error }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>

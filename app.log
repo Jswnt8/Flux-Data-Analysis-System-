@@ -1,0 +1,466 @@
+2025-03-20 19:10:08,953 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 19:10:08,953 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 19:10:08,975 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 19:10:11,236 - WARNING -  * Debugger is active!
+2025-03-20 19:10:11,242 - INFO -  * Debugger PIN: 138-703-255
+2025-03-20 19:10:17,800 - INFO - 127.0.0.1 - - [20/Mar/2025 19:10:17] "GET / HTTP/1.1" 200 -
+2025-03-20 19:10:17,996 - INFO - 127.0.0.1 - - [20/Mar/2025 19:10:17] "GET /static/styles.css HTTP/1.1" 200 -
+2025-03-20 19:10:18,191 - INFO - 127.0.0.1 - - [20/Mar/2025 19:10:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 19:10:32,928 - WARNING - Failed to read file with encoding: utf-8
+2025-03-20 19:10:32,933 - WARNING - Failed to parse file with encoding latin1: Expected 2 fields in line 8, saw 3
+2025-03-20 19:10:32,934 - WARNING - Failed to read file with encoding: cp1252
+2025-03-20 19:10:32,935 - WARNING - Failed to read file with encoding: utf-16
+2025-03-20 19:10:32,935 - ERROR - Error ingesting data: Unable to read the file with any supported encoding or format.
+2025-03-20 19:10:32,936 - INFO - 127.0.0.1 - - [20/Mar/2025 19:10:32] "POST /process HTTP/1.1" 200 -
+2025-03-20 19:10:33,019 - INFO - 127.0.0.1 - - [20/Mar/2025 19:10:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 19:10:44,266 - INFO - Data ingested from uploaded Excel file
+2025-03-20 19:10:44,271 - INFO - Data preprocessed successfully
+2025-03-20 19:10:45,304 - INFO - Mean values bar chart created
+2025-03-20 19:10:47,636 - INFO - Scatter plot created: Salary vs. Unnamed: 6
+2025-03-20 19:10:48,012 - INFO - Reports generated successfully
+2025-03-20 19:10:48,013 - INFO - 127.0.0.1 - - [20/Mar/2025 19:10:48] "POST /process HTTP/1.1" 200 -
+2025-03-20 19:10:48,082 - INFO - 127.0.0.1 - - [20/Mar/2025 19:10:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 19:34:31,561 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 19:34:31,562 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 19:34:31,586 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 19:34:34,968 - WARNING -  * Debugger is active!
+2025-03-20 19:34:34,978 - INFO -  * Debugger PIN: 121-048-520
+2025-03-20 19:34:36,822 - INFO - 127.0.0.1 - - [20/Mar/2025 19:34:36] "GET / HTTP/1.1" 200 -
+2025-03-20 19:34:37,099 - INFO - 127.0.0.1 - - [20/Mar/2025 19:34:37] "GET /static/styles.css HTTP/1.1" 200 -
+2025-03-20 19:34:41,907 - INFO - 127.0.0.1 - - [20/Mar/2025 19:34:41] "GET / HTTP/1.1" 200 -
+2025-03-20 19:34:41,979 - INFO - 127.0.0.1 - - [20/Mar/2025 19:34:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 19:35:30,054 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 19:35:30,054 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 19:35:30,074 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 19:35:33,206 - WARNING -  * Debugger is active!
+2025-03-20 19:35:33,216 - INFO -  * Debugger PIN: 121-048-520
+2025-03-20 19:35:36,674 - INFO - 127.0.0.1 - - [20/Mar/2025 19:35:36] "GET / HTTP/1.1" 200 -
+2025-03-20 19:35:36,738 - INFO - 127.0.0.1 - - [20/Mar/2025 19:35:36] "[33mGET /static/flux_logo.png HTTP/1.1[0m" 404 -
+2025-03-20 19:35:36,931 - INFO - 127.0.0.1 - - [20/Mar/2025 19:35:36] "GET /static/styles.css HTTP/1.1" 200 -
+2025-03-20 19:35:49,695 - INFO - 127.0.0.1 - - [20/Mar/2025 19:35:49] "GET / HTTP/1.1" 200 -
+2025-03-20 19:35:49,742 - INFO - 127.0.0.1 - - [20/Mar/2025 19:35:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 19:35:49,765 - INFO - 127.0.0.1 - - [20/Mar/2025 19:35:49] "[33mGET /static/flux_logo.png HTTP/1.1[0m" 404 -
+2025-03-20 19:35:51,304 - INFO - 127.0.0.1 - - [20/Mar/2025 19:35:51] "GET / HTTP/1.1" 200 -
+2025-03-20 19:35:51,348 - INFO - 127.0.0.1 - - [20/Mar/2025 19:35:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 19:35:51,351 - INFO - 127.0.0.1 - - [20/Mar/2025 19:35:51] "[33mGET /static/flux_logo.png HTTP/1.1[0m" 404 -
+2025-03-20 19:35:52,063 - INFO - 127.0.0.1 - - [20/Mar/2025 19:35:52] "GET / HTTP/1.1" 200 -
+2025-03-20 19:35:52,119 - INFO - 127.0.0.1 - - [20/Mar/2025 19:35:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 19:35:52,145 - INFO - 127.0.0.1 - - [20/Mar/2025 19:35:52] "[33mGET /static/flux_logo.png HTTP/1.1[0m" 404 -
+2025-03-20 19:44:23,863 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 19:44:23,863 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 19:44:23,881 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 19:44:26,932 - WARNING -  * Debugger is active!
+2025-03-20 19:44:26,943 - INFO -  * Debugger PIN: 121-048-520
+2025-03-20 19:44:29,097 - INFO - 127.0.0.1 - - [20/Mar/2025 19:44:29] "GET / HTTP/1.1" 200 -
+2025-03-20 19:44:29,152 - INFO - 127.0.0.1 - - [20/Mar/2025 19:44:29] "[33mGET /static/flux_logo.png HTTP/1.1[0m" 404 -
+2025-03-20 19:44:29,273 - INFO - 127.0.0.1 - - [20/Mar/2025 19:44:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 19:46:00,383 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 19:46:00,383 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 19:46:00,403 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 19:46:03,487 - WARNING -  * Debugger is active!
+2025-03-20 19:46:03,496 - INFO -  * Debugger PIN: 121-048-520
+2025-03-20 19:46:04,892 - INFO - 127.0.0.1 - - [20/Mar/2025 19:46:04] "GET / HTTP/1.1" 200 -
+2025-03-20 19:46:04,973 - INFO - 127.0.0.1 - - [20/Mar/2025 19:46:04] "[33mGET /static/flux.png HTTP/1.1[0m" 404 -
+2025-03-20 19:46:05,073 - INFO - 127.0.0.1 - - [20/Mar/2025 19:46:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 19:48:22,841 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-20 19:48:22,864 - INFO - Data preprocessed successfully
+2025-03-20 19:48:24,378 - INFO - Categorical frequency bar chart created for name
+2025-03-20 19:48:25,726 - INFO - Reports generated successfully
+2025-03-20 19:48:25,727 - INFO - 127.0.0.1 - - [20/Mar/2025 19:48:25] "POST /process HTTP/1.1" 200 -
+2025-03-20 19:48:25,809 - INFO - 127.0.0.1 - - [20/Mar/2025 19:48:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 19:48:25,838 - INFO - 127.0.0.1 - - [20/Mar/2025 19:48:25] "[33mGET /static/flux.png HTTP/1.1[0m" 404 -
+2025-03-20 19:53:03,271 - ERROR - Error ingesting data: Missing optional dependency 'xlrd'. Install xlrd >= 2.0.1 for xls Excel support Use pip or conda to install xlrd.
+2025-03-20 19:53:03,272 - INFO - 127.0.0.1 - - [20/Mar/2025 19:53:03] "POST /process HTTP/1.1" 200 -
+2025-03-20 19:53:03,368 - INFO - 127.0.0.1 - - [20/Mar/2025 19:53:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 19:53:03,400 - INFO - 127.0.0.1 - - [20/Mar/2025 19:53:03] "[33mGET /static/flux.png HTTP/1.1[0m" 404 -
+2025-03-20 19:53:13,215 - WARNING - Failed to read file with encoding: utf-8
+2025-03-20 19:53:13,228 - WARNING - Failed to parse file with encoding latin1: Expected 3 fields in line 6, saw 8
+2025-03-20 19:53:13,229 - WARNING - Failed to read file with encoding: cp1252
+2025-03-20 19:53:13,233 - WARNING - Failed to read file with encoding: utf-16
+2025-03-20 19:53:13,233 - ERROR - Error ingesting data: Unable to read the file with any supported encoding or format.
+2025-03-20 19:53:13,234 - INFO - 127.0.0.1 - - [20/Mar/2025 19:53:13] "POST /process HTTP/1.1" 200 -
+2025-03-20 19:53:13,277 - INFO - 127.0.0.1 - - [20/Mar/2025 19:53:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 19:53:13,308 - INFO - 127.0.0.1 - - [20/Mar/2025 19:53:13] "[33mGET /static/flux.png HTTP/1.1[0m" 404 -
+2025-03-20 19:53:24,589 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-20 19:53:24,597 - INFO - Data preprocessed successfully
+2025-03-20 19:53:24,765 - INFO - Mean values bar chart created
+2025-03-20 19:53:24,765 - INFO - Not enough numeric columns for scatter plot.
+2025-03-20 19:53:25,183 - INFO - Reports generated successfully
+2025-03-20 19:53:25,184 - INFO - 127.0.0.1 - - [20/Mar/2025 19:53:25] "POST /process HTTP/1.1" 200 -
+2025-03-20 19:53:25,265 - INFO - 127.0.0.1 - - [20/Mar/2025 19:53:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 19:53:25,290 - INFO - 127.0.0.1 - - [20/Mar/2025 19:53:25] "[33mGET /static/flux.png HTTP/1.1[0m" 404 -
+2025-03-20 20:08:02,394 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-20 20:08:02,401 - INFO - Data preprocessed successfully
+2025-03-20 20:08:02,536 - INFO - Mean values bar chart created
+2025-03-20 20:08:02,536 - INFO - Not enough numeric columns for scatter plot.
+2025-03-20 20:08:02,937 - INFO - Reports generated successfully
+2025-03-20 20:08:02,938 - INFO - 127.0.0.1 - - [20/Mar/2025 20:08:02] "POST /process HTTP/1.1" 200 -
+2025-03-20 20:08:03,031 - INFO - 127.0.0.1 - - [20/Mar/2025 20:08:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 20:08:03,060 - INFO - 127.0.0.1 - - [20/Mar/2025 20:08:03] "[33mGET /static/flux.png HTTP/1.1[0m" 404 -
+2025-03-20 20:29:52,427 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 20:29:52,427 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 20:29:52,444 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 20:29:54,974 - WARNING -  * Debugger is active!
+2025-03-20 20:29:54,984 - INFO -  * Debugger PIN: 121-048-520
+2025-03-20 20:30:36,457 - INFO - 127.0.0.1 - - [20/Mar/2025 20:30:36] "GET / HTTP/1.1" 200 -
+2025-03-20 20:30:36,546 - INFO - 127.0.0.1 - - [20/Mar/2025 20:30:36] "[33mGET /static/Flux.png HTTP/1.1[0m" 404 -
+2025-03-20 20:30:36,662 - INFO - 127.0.0.1 - - [20/Mar/2025 20:30:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 20:30:43,407 - INFO - 127.0.0.1 - - [20/Mar/2025 20:30:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 20:30:59,046 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-20 20:30:59,059 - INFO - Data preprocessed successfully
+2025-03-20 20:31:00,701 - INFO - Categorical frequency bar chart created for name
+2025-03-20 20:31:01,402 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-20 20:31:01,410 - INFO - Data preprocessed successfully
+2025-03-20 20:31:01,526 - INFO - Categorical frequency bar chart created for name
+2025-03-20 20:31:02,759 - INFO - Reports generated successfully
+2025-03-20 20:31:02,760 - INFO - 127.0.0.1 - - [20/Mar/2025 20:31:02] "POST /process HTTP/1.1" 200 -
+2025-03-20 20:31:02,763 - INFO - Reports generated successfully
+2025-03-20 20:31:02,764 - INFO - 127.0.0.1 - - [20/Mar/2025 20:31:02] "POST /process HTTP/1.1" 200 -
+2025-03-20 20:31:02,881 - INFO - 127.0.0.1 - - [20/Mar/2025 20:31:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 20:31:02,901 - INFO - 127.0.0.1 - - [20/Mar/2025 20:31:02] "[33mGET /static/Flux.png HTTP/1.1[0m" 404 -
+2025-03-20 20:32:01,448 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 20:32:01,448 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 20:32:01,468 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 20:32:04,628 - WARNING -  * Debugger is active!
+2025-03-20 20:32:04,639 - INFO -  * Debugger PIN: 121-048-520
+2025-03-20 20:32:05,251 - INFO - 127.0.0.1 - - [20/Mar/2025 20:32:05] "GET / HTTP/1.1" 200 -
+2025-03-20 20:32:05,340 - INFO - 127.0.0.1 - - [20/Mar/2025 20:32:05] "[33mGET /static/D:\\startup\\Insight%20Forge\\Flux.png HTTP/1.1[0m" 404 -
+2025-03-20 20:32:05,465 - INFO - 127.0.0.1 - - [20/Mar/2025 20:32:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 20:32:12,143 - INFO - 127.0.0.1 - - [20/Mar/2025 20:32:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 22:03:51,191 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 22:03:51,191 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 22:03:51,219 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 22:03:54,185 - WARNING -  * Debugger is active!
+2025-03-20 22:03:54,195 - INFO -  * Debugger PIN: 121-048-520
+2025-03-20 22:03:57,802 - INFO - 127.0.0.1 - - [20/Mar/2025 22:03:57] "GET / HTTP/1.1" 200 -
+2025-03-20 22:03:57,874 - INFO - 127.0.0.1 - - [20/Mar/2025 22:03:57] "[33mGET /static/D:\\startup\\Insight%20Forge\\Flux.png HTTP/1.1[0m" 404 -
+2025-03-20 22:03:58,011 - INFO - 127.0.0.1 - - [20/Mar/2025 22:03:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 22:16:13,793 - INFO -  * Detected change in 'D:\\startup\\Insight Forge\\app.py', reloading
+2025-03-20 22:16:14,445 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 22:16:57,558 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 22:16:57,558 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 22:16:57,571 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 22:17:00,504 - WARNING -  * Debugger is active!
+2025-03-20 22:17:00,511 - INFO -  * Debugger PIN: 121-048-520
+2025-03-20 22:17:07,308 - INFO - 127.0.0.1 - - [20/Mar/2025 22:17:07] "GET / HTTP/1.1" 200 -
+2025-03-20 22:17:07,374 - INFO - 127.0.0.1 - - [20/Mar/2025 22:17:07] "[33mGET /static/D:\\startup\\Insight%20Forge\\Flux.png HTTP/1.1[0m" 404 -
+2025-03-20 22:17:07,501 - INFO - 127.0.0.1 - - [20/Mar/2025 22:17:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 22:18:48,842 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 22:18:48,842 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 22:18:48,861 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 22:18:51,618 - WARNING -  * Debugger is active!
+2025-03-20 22:18:51,626 - INFO -  * Debugger PIN: 121-048-520
+2025-03-20 22:18:57,475 - INFO - 127.0.0.1 - - [20/Mar/2025 22:18:57] "GET / HTTP/1.1" 200 -
+2025-03-20 22:18:57,560 - INFO - 127.0.0.1 - - [20/Mar/2025 22:18:57] "[33mGET /static/D:\\startup\\Insight%20Forge\\Flux.png HTTP/1.1[0m" 404 -
+2025-03-20 22:18:57,701 - INFO - 127.0.0.1 - - [20/Mar/2025 22:18:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 22:19:13,979 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 22:19:13,979 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 22:19:14,005 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 22:19:16,757 - WARNING -  * Debugger is active!
+2025-03-20 22:19:16,768 - INFO -  * Debugger PIN: 121-048-520
+2025-03-20 22:19:19,950 - INFO - 127.0.0.1 - - [20/Mar/2025 22:19:19] "GET / HTTP/1.1" 200 -
+2025-03-20 22:19:20,028 - INFO - 127.0.0.1 - - [20/Mar/2025 22:19:20] "[33mGET /static/D:\\startup\\Insight%20Forge\\Flux.png HTTP/1.1[0m" 404 -
+2025-03-20 22:19:20,147 - INFO - 127.0.0.1 - - [20/Mar/2025 22:19:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 22:20:27,218 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 22:20:27,219 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 22:20:27,237 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 22:20:30,007 - WARNING -  * Debugger is active!
+2025-03-20 22:20:30,016 - INFO -  * Debugger PIN: 121-048-520
+2025-03-20 22:21:02,431 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 22:21:02,431 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 22:21:02,455 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 22:21:05,736 - WARNING -  * Debugger is active!
+2025-03-20 22:21:05,741 - INFO -  * Debugger PIN: 121-048-520
+2025-03-20 22:21:08,607 - INFO - 127.0.0.1 - - [20/Mar/2025 22:21:08] "GET / HTTP/1.1" 200 -
+2025-03-20 22:21:08,806 - INFO - 127.0.0.1 - - [20/Mar/2025 22:21:08] "GET /static/styles.css HTTP/1.1" 200 -
+2025-03-20 22:21:20,447 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-20 22:21:20,467 - INFO - Data preprocessed successfully
+2025-03-20 22:21:22,707 - INFO - Categorical frequency bar chart created for name
+2025-03-20 22:21:24,356 - INFO - Reports generated successfully
+2025-03-20 22:21:24,357 - INFO - 127.0.0.1 - - [20/Mar/2025 22:21:24] "POST /process HTTP/1.1" 200 -
+2025-03-20 22:21:24,409 - INFO - 127.0.0.1 - - [20/Mar/2025 22:21:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-20 23:26:13,877 - INFO -  * Detected change in 'D:\\startup\\Insight Forge\\app.py', reloading
+2025-03-20 23:26:15,597 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-20 23:26:21,227 - WARNING -  * Debugger is active!
+2025-03-20 23:26:21,241 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 00:26:13,902 - INFO -  * Detected change in 'D:\\startup\\Insight Forge\\app.py', reloading
+2025-03-21 00:26:14,972 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 00:26:19,294 - WARNING -  * Debugger is active!
+2025-03-21 00:26:19,303 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 01:26:13,968 - INFO -  * Detected change in 'D:\\startup\\Insight Forge\\app.py', reloading
+2025-03-21 01:26:14,802 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 09:37:12,111 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 09:37:12,111 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 09:37:12,158 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 09:37:15,607 - WARNING -  * Debugger is active!
+2025-03-21 09:37:15,622 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 09:37:15,654 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tenacity\\before_sleep.py', reloading
+2025-03-21 09:37:15,669 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py', reloading
+2025-03-21 09:37:15,685 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\terminado\\__init__.py', reloading
+2025-03-21 09:37:15,685 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tinycss2\\__init__.py', reloading
+2025-03-21 09:37:15,716 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\traitlets\\__init__.py', reloading
+2025-03-21 09:37:15,732 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\traitlets\\traitlets.py', reloading
+2025-03-21 09:37:15,747 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\traitlets\\_version.py', reloading
+2025-03-21 09:37:15,763 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\traitlets\\utils\\bunch.py', reloading
+2025-03-21 09:37:15,779 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\traitlets\\utils\\decorators.py', reloading
+2025-03-21 09:37:15,779 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\traitlets\\utils\\importstring.py', reloading
+2025-03-21 09:37:15,794 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tzdata\\__init__.py', reloading
+2025-03-21 09:37:15,809 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tzlocal\\__init__.py', reloading
+2025-03-21 09:37:15,824 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tzlocal\\win32.py', reloading
+2025-03-21 09:37:15,838 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tzlocal\\utils.py', reloading
+2025-03-21 09:37:15,848 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\uri_template\\__init__.py', reloading
+2025-03-21 09:37:15,863 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\uri_template\\expansions.py', reloading
+2025-03-21 09:37:15,872 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\uri_template\\uritemplate.py', reloading
+2025-03-21 09:37:15,889 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\uri_template\\variable.py', reloading
+2025-03-21 09:37:15,897 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\urllib3\\__init__.py', reloading
+2025-03-21 09:37:15,919 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\urllib3\\_collections.py', reloading
+2025-03-21 09:37:15,946 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\urllib3\\connectionpool.py', reloading
+2025-03-21 09:37:15,974 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\urllib3\\filepost.py', reloading
+2025-03-21 09:37:15,995 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\urllib3\\poolmanager.py', reloading
+2025-03-21 09:37:16,019 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\urllib3\\response.py', reloading
+2025-03-21 09:37:16,051 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\urllib3\\util\\request.py', reloading
+2025-03-21 09:37:16,079 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\urllib3\\util\\retry.py', reloading
+2025-03-21 09:37:16,096 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\urllib3\\util\\timeout.py', reloading
+2025-03-21 09:37:16,108 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\uvicorn\\__init__.py', reloading
+2025-03-21 09:37:16,141 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\uvicorn\\config.py', reloading
+2025-03-21 09:37:16,165 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\uvicorn\\main.py', reloading
+2025-03-21 09:37:16,180 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\uvicorn\\server.py', reloading
+2025-03-21 09:37:16,195 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\wcwidth\\__init__.py', reloading
+2025-03-21 09:37:16,213 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\wcwidth\\wcwidth.py', reloading
+2025-03-21 09:37:16,221 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\wcwidth\\unicode_versions.py', reloading
+2025-03-21 09:37:16,236 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\webcolors\\__init__.py', reloading
+2025-03-21 09:37:16,250 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\webcolors\\_conversion.py', reloading
+2025-03-21 09:37:16,263 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\webcolors\\_definitions.py', reloading
+2025-03-21 09:37:16,280 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\webcolors\\_html5.py', reloading
+2025-03-21 09:37:16,296 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\webcolors\\_normalization.py', reloading
+2025-03-21 09:37:16,313 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\webcolors\\_types.py', reloading
+2025-03-21 09:37:16,328 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\webencodings\\__init__.py', reloading
+2025-03-21 09:37:16,330 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\websocket\\__init__.py', reloading
+2025-03-21 09:37:16,346 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\websocket\\_abnf.py', reloading
+2025-03-21 09:37:16,365 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\websocket\\_core.py', reloading
+2025-03-21 09:37:16,378 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\websocket\\_exceptions.py', reloading
+2025-03-21 09:37:16,394 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\websocket\\_logging.py', reloading
+2025-03-21 09:37:16,403 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\websocket\\_socket.py', reloading
+2025-03-21 09:37:16,419 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\websocket\\_app.py', reloading
+2025-03-21 09:37:16,429 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\__init__.py', reloading
+2025-03-21 09:37:16,448 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+2025-03-21 09:37:16,478 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\test.py', reloading
+2025-03-21 09:37:16,494 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\wikipedia\\__init__.py', reloading
+2025-03-21 09:37:16,502 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\winpty\\__init__.py', reloading
+2025-03-21 09:37:16,512 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\yarl\\__init__.py', reloading
+2025-03-21 09:37:16,526 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\yarl\\_query.py', reloading
+2025-03-21 09:37:16,541 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\yarl\\_url.py', reloading
+2025-03-21 09:37:16,573 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\zmq\\constants.py', reloading
+2025-03-21 09:37:16,604 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\zmq\\error.py', reloading
+2025-03-21 09:37:16,629 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\zmq\\sugar\\context.py', reloading
+2025-03-21 09:37:16,645 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\zmq\\sugar\\frame.py', reloading
+2025-03-21 09:37:16,966 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 09:37:20,001 - WARNING -  * Debugger is active!
+2025-03-21 09:37:20,003 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 09:37:38,396 - INFO - 127.0.0.1 - - [21/Mar/2025 09:37:38] "GET / HTTP/1.1" 200 -
+2025-03-21 09:37:38,574 - INFO - 127.0.0.1 - - [21/Mar/2025 09:37:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 09:37:38,756 - INFO - 127.0.0.1 - - [21/Mar/2025 09:37:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-21 09:37:46,773 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-21 09:37:46,798 - INFO - Data preprocessed successfully
+2025-03-21 09:37:50,067 - INFO - Categorical frequency bar chart created for name
+2025-03-21 09:37:51,360 - INFO - Reports generated successfully
+2025-03-21 09:37:51,360 - INFO - 127.0.0.1 - - [21/Mar/2025 09:37:51] "POST /process HTTP/1.1" 200 -
+2025-03-21 09:37:51,424 - INFO - 127.0.0.1 - - [21/Mar/2025 09:37:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 09:48:40,823 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 09:48:40,823 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 09:48:40,838 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 09:48:42,899 - WARNING -  * Debugger is active!
+2025-03-21 09:48:42,904 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 09:48:51,122 - INFO - 127.0.0.1 - - [21/Mar/2025 09:48:51] "GET / HTTP/1.1" 200 -
+2025-03-21 09:48:51,246 - INFO - 127.0.0.1 - - [21/Mar/2025 09:48:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 09:49:04,930 - INFO -  * Detected change in 'D:\\startup\\Insight Forge\\app.py', reloading
+2025-03-21 09:49:04,930 - INFO -  * Detected change in 'D:\\startup\\Insight Forge\\app.py', reloading
+2025-03-21 09:49:04,930 - INFO -  * Detected change in 'D:\\startup\\Insight Forge\\app.py', reloading
+2025-03-21 09:49:05,121 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 09:49:06,976 - WARNING -  * Debugger is active!
+2025-03-21 09:49:06,976 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 09:53:16,831 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 09:53:16,831 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 09:53:16,850 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 09:53:18,914 - WARNING -  * Debugger is active!
+2025-03-21 09:53:18,921 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 09:53:27,489 - INFO - 127.0.0.1 - - [21/Mar/2025 09:53:27] "GET / HTTP/1.1" 200 -
+2025-03-21 09:53:27,615 - INFO - 127.0.0.1 - - [21/Mar/2025 09:53:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 09:53:34,529 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-21 09:53:34,548 - INFO - Data preprocessed successfully
+2025-03-21 09:53:36,883 - INFO - Categorical frequency bar chart created for name
+2025-03-21 09:53:37,769 - INFO - Reports generated successfully
+2025-03-21 09:53:37,770 - INFO - 127.0.0.1 - - [21/Mar/2025 09:53:37] "POST /process HTTP/1.1" 200 -
+2025-03-21 09:53:37,811 - INFO - 127.0.0.1 - - [21/Mar/2025 09:53:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 09:57:00,791 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 09:57:00,791 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 09:57:00,811 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 09:57:02,990 - WARNING -  * Debugger is active!
+2025-03-21 09:57:03,004 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 09:57:08,484 - INFO - 127.0.0.1 - - [21/Mar/2025 09:57:08] "GET / HTTP/1.1" 200 -
+2025-03-21 09:57:08,609 - INFO - 127.0.0.1 - - [21/Mar/2025 09:57:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 09:57:14,887 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-21 09:57:14,912 - INFO - Data preprocessed successfully
+2025-03-21 09:57:16,573 - INFO - Categorical frequency bar chart created for name
+2025-03-21 09:57:18,005 - INFO - Reports generated successfully
+2025-03-21 09:57:18,013 - INFO - 127.0.0.1 - - [21/Mar/2025 09:57:18] "POST /process HTTP/1.1" 200 -
+2025-03-21 09:57:18,062 - INFO - 127.0.0.1 - - [21/Mar/2025 09:57:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 09:58:12,414 - INFO - 127.0.0.1 - - [21/Mar/2025 09:58:12] "[33mGET /visualizations/categorical_frequency_bar_chart.html HTTP/1.1[0m" 404 -
+2025-03-21 09:58:16,638 - INFO - 127.0.0.1 - - [21/Mar/2025 09:58:16] "[33mGET /reports/data_report.pdf HTTP/1.1[0m" 404 -
+2025-03-21 09:58:31,928 - INFO - Data ingested from uploaded Excel file
+2025-03-21 09:58:31,936 - INFO - Data preprocessed successfully
+2025-03-21 09:58:32,045 - INFO - Mean values bar chart created
+2025-03-21 09:58:34,361 - INFO - Scatter plot created: Salary vs. Unnamed: 6
+2025-03-21 09:58:34,635 - INFO - Reports generated successfully
+2025-03-21 09:58:34,643 - INFO - 127.0.0.1 - - [21/Mar/2025 09:58:34] "POST /process HTTP/1.1" 200 -
+2025-03-21 09:58:34,675 - INFO - 127.0.0.1 - - [21/Mar/2025 09:58:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 09:58:44,165 - INFO - 127.0.0.1 - - [21/Mar/2025 09:58:44] "[33mGET /visualizations/mean_values_bar_chart.html HTTP/1.1[0m" 404 -
+2025-03-21 09:58:51,399 - INFO - 127.0.0.1 - - [21/Mar/2025 09:58:51] "[33mGET /visualizations/scatter_plot.html HTTP/1.1[0m" 404 -
+2025-03-21 09:59:06,165 - INFO - 127.0.0.1 - - [21/Mar/2025 09:59:06] "[33mGET /reports/data_report.pdf HTTP/1.1[0m" 404 -
+2025-03-21 09:59:41,474 - INFO - Data ingested from uploaded Excel file
+2025-03-21 09:59:41,474 - INFO - Data preprocessed successfully
+2025-03-21 09:59:41,547 - INFO - Mean values bar chart created
+2025-03-21 09:59:43,300 - INFO - Scatter plot created: Salary vs. Unnamed: 6
+2025-03-21 09:59:43,635 - INFO - Reports generated successfully
+2025-03-21 09:59:43,643 - INFO - 127.0.0.1 - - [21/Mar/2025 09:59:43] "POST /process HTTP/1.1" 200 -
+2025-03-21 09:59:43,738 - INFO - 127.0.0.1 - - [21/Mar/2025 09:59:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 10:36:31,851 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 10:36:31,851 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 10:36:31,882 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 10:36:35,384 - WARNING -  * Debugger is active!
+2025-03-21 10:36:35,393 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 10:36:39,712 - INFO - 127.0.0.1 - - [21/Mar/2025 10:36:39] "GET / HTTP/1.1" 200 -
+2025-03-21 10:36:39,896 - INFO - 127.0.0.1 - - [21/Mar/2025 10:36:39] "GET /static/styles.css HTTP/1.1" 200 -
+2025-03-21 10:36:40,079 - INFO - 127.0.0.1 - - [21/Mar/2025 10:36:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-21 10:36:48,584 - INFO -  * Detected change in 'D:\\startup\\Insight Forge\\app.py', reloading
+2025-03-21 10:36:48,585 - INFO -  * Detected change in 'D:\\startup\\Insight Forge\\app.py', reloading
+2025-03-21 10:36:48,585 - INFO -  * Detected change in 'D:\\startup\\Insight Forge\\app.py', reloading
+2025-03-21 10:36:49,668 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 10:37:40,895 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 10:37:40,895 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 10:37:40,909 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 10:37:42,396 - WARNING -  * Debugger is active!
+2025-03-21 10:37:42,400 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 10:37:47,033 - INFO - 127.0.0.1 - - [21/Mar/2025 10:37:47] "GET / HTTP/1.1" 200 -
+2025-03-21 10:38:13,155 - WARNING - Failed to read file with encoding: utf-8
+2025-03-21 10:38:13,169 - WARNING - Failed to parse file with encoding latin1: Expected 2 fields in line 8, saw 3
+2025-03-21 10:38:13,169 - WARNING - Failed to read file with encoding: cp1252
+2025-03-21 10:38:13,169 - WARNING - Failed to read file with encoding: utf-16
+2025-03-21 10:38:13,169 - ERROR - Error ingesting data: Unable to read the file with any supported encoding or format.
+2025-03-21 10:38:13,184 - INFO - 127.0.0.1 - - [21/Mar/2025 10:38:13] "POST /process HTTP/1.1" 200 -
+2025-03-21 10:38:25,782 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-21 10:38:26,008 - INFO - Data preprocessed successfully
+2025-03-21 10:38:28,271 - INFO - Mean values bar chart created
+2025-03-21 10:38:43,337 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scattergl\\_name.py', reloading
+2025-03-21 10:38:43,357 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scattergl\\_legendgroup.py', reloading
+2025-03-21 10:38:43,367 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scattergl\\_showlegend.py', reloading
+2025-03-21 10:38:43,372 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scattergl\\marker\\_color.py', reloading
+2025-03-21 10:38:43,388 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scattergl\\marker\\_symbol.py', reloading
+2025-03-21 10:38:43,406 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scattergl\\_mode.py', reloading
+2025-03-21 10:38:43,406 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scattergl\\_x.py', reloading
+2025-03-21 10:38:43,431 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scattergl\\_y.py', reloading
+2025-03-21 10:38:43,440 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scattergl\\_customdata.py', reloading
+2025-03-21 10:38:43,441 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scattergl\\_hovertemplate.py', reloading
+2025-03-21 10:38:44,928 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 10:38:46,543 - WARNING -  * Debugger is active!
+2025-03-21 10:38:46,547 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 10:38:49,713 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-21 10:38:49,916 - INFO - Data preprocessed successfully
+2025-03-21 10:38:50,854 - INFO - Mean values bar chart created
+2025-03-21 10:40:19,070 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-21 10:40:21,855 - INFO - Data preprocessed successfully
+2025-03-21 10:40:24,889 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scattergl\\_xaxis.py', reloading
+2025-03-21 10:40:24,933 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\plotly\\validators\\scattergl\\_yaxis.py', reloading
+2025-03-21 10:40:25,440 - INFO - Mean values bar chart created
+2025-03-21 10:40:28,995 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 10:40:30,834 - WARNING -  * Debugger is active!
+2025-03-21 10:40:30,839 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 10:40:36,297 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 10:40:36,297 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 10:40:36,309 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 10:40:37,780 - WARNING -  * Debugger is active!
+2025-03-21 10:40:37,785 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 10:41:03,310 - INFO - 127.0.0.1 - - [21/Mar/2025 10:41:03] "GET / HTTP/1.1" 200 -
+2025-03-21 10:41:09,030 - WARNING - Failed to read file with encoding: utf-8
+2025-03-21 10:41:09,036 - WARNING - Failed to parse file with encoding latin1: Expected 2 fields in line 8, saw 3
+2025-03-21 10:41:09,037 - WARNING - Failed to read file with encoding: cp1252
+2025-03-21 10:41:09,039 - WARNING - Failed to read file with encoding: utf-16
+2025-03-21 10:41:09,039 - ERROR - Error ingesting data: Unable to read the file with any supported encoding or format.
+2025-03-21 10:41:09,039 - INFO - 127.0.0.1 - - [21/Mar/2025 10:41:09] "POST /process HTTP/1.1" 200 -
+2025-03-21 10:41:16,490 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-21 10:41:16,509 - INFO - Data preprocessed successfully
+2025-03-21 10:41:17,135 - INFO - Categorical frequency bar chart created for name
+2025-03-21 10:41:17,981 - INFO - Reports generated successfully
+2025-03-21 10:41:17,986 - INFO - 127.0.0.1 - - [21/Mar/2025 10:41:17] "POST /process HTTP/1.1" 200 -
+2025-03-21 10:41:27,195 - INFO - 127.0.0.1 - - [21/Mar/2025 10:41:27] "GET /view_freq_counts HTTP/1.1" 200 -
+2025-03-21 10:44:57,088 - INFO - 127.0.0.1 - - [21/Mar/2025 10:44:57] "[33mGET /static/data_report.xlsx HTTP/1.1[0m" 404 -
+2025-03-21 10:45:00,428 - INFO - 127.0.0.1 - - [21/Mar/2025 10:45:00] "[33mGET /static/data_report.pdf HTTP/1.1[0m" 404 -
+2025-03-21 10:45:02,155 - INFO - 127.0.0.1 - - [21/Mar/2025 10:45:02] "[33mGET /static/data_report.pdf HTTP/1.1[0m" 404 -
+2025-03-21 10:45:04,432 - INFO - 127.0.0.1 - - [21/Mar/2025 10:45:04] "GET /view_table HTTP/1.1" 200 -
+2025-03-21 10:45:15,600 - INFO - 127.0.0.1 - - [21/Mar/2025 10:45:15] "[33mGET /visualizations/categorical_frequency_bar_chart.html HTTP/1.1[0m" 404 -
+2025-03-21 10:45:52,529 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-21 10:45:52,564 - INFO - Data preprocessed successfully
+2025-03-21 10:45:52,650 - INFO - Mean values bar chart created
+2025-03-21 10:45:52,919 - INFO - Scatter plot created: EMPLOYEE_ID vs. SALARY
+2025-03-21 10:45:53,017 - INFO - Reports generated successfully
+2025-03-21 10:45:53,020 - INFO - 127.0.0.1 - - [21/Mar/2025 10:45:53] "POST /process HTTP/1.1" 200 -
+2025-03-21 10:45:59,386 - INFO - 127.0.0.1 - - [21/Mar/2025 10:45:59] "[33mGET /visualizations/mean_values_bar_chart.html HTTP/1.1[0m" 404 -
+2025-03-21 10:46:17,290 - INFO - 127.0.0.1 - - [21/Mar/2025 10:46:17] "[33mGET /visualizations/scatter_plot.html HTTP/1.1[0m" 404 -
+2025-03-21 10:46:20,449 - INFO - 127.0.0.1 - - [21/Mar/2025 10:46:20] "[33mGET /static/data_report.pdf HTTP/1.1[0m" 404 -
+2025-03-21 10:46:22,681 - INFO - 127.0.0.1 - - [21/Mar/2025 10:46:22] "GET /view_table HTTP/1.1" 200 -
+2025-03-21 10:46:28,771 - INFO - 127.0.0.1 - - [21/Mar/2025 10:46:28] "[33mGET /visualizations/mean_values_bar_chart.html HTTP/1.1[0m" 404 -
+2025-03-21 10:46:50,605 - INFO - 127.0.0.1 - - [21/Mar/2025 10:46:50] "[33mGET /visualizations/scatter_plot.html HTTP/1.1[0m" 404 -
+2025-03-21 10:49:25,318 - INFO -  * Detected change in 'C:\\Users\\jswnt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shutil.py', reloading
+2025-03-21 10:49:26,037 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 10:49:27,923 - WARNING -  * Debugger is active!
+2025-03-21 10:49:27,928 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 10:51:09,152 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 10:51:09,153 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 10:51:09,163 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 10:51:10,672 - WARNING -  * Debugger is active!
+2025-03-21 10:51:10,679 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 10:51:13,246 - INFO - 127.0.0.1 - - [21/Mar/2025 10:51:13] "GET / HTTP/1.1" 200 -
+2025-03-21 10:51:33,449 - WARNING - Failed to read file with encoding: utf-8
+2025-03-21 10:51:33,466 - WARNING - Failed to parse file with encoding latin1: Expected 3 fields in line 6, saw 8
+2025-03-21 10:51:33,467 - WARNING - Failed to read file with encoding: cp1252
+2025-03-21 10:51:33,469 - WARNING - Failed to read file with encoding: utf-16
+2025-03-21 10:51:33,470 - ERROR - Error ingesting data: Unable to read the file with any supported encoding or format.
+2025-03-21 10:51:33,471 - INFO - 127.0.0.1 - - [21/Mar/2025 10:51:33] "POST /process HTTP/1.1" 200 -
+2025-03-21 10:51:40,186 - INFO - Data ingested from uploaded file with encoding: utf-8
+2025-03-21 10:51:40,199 - INFO - Data preprocessed successfully
+2025-03-21 10:51:40,892 - INFO - Mean values bar chart created at static/visualizations\mean_values_bar_chart.html
+2025-03-21 10:51:40,892 - INFO - Not enough numeric columns for scatter plot.
+2025-03-21 10:51:40,892 - INFO - Visualization paths: {'bar_chart': 'visualizations/mean_values_bar_chart.html'}
+2025-03-21 10:51:41,357 - INFO - Reports generated successfully: PDF at static/reports\data_report.pdf, Excel at static/reports\data_report.xlsx
+2025-03-21 10:51:41,357 - INFO - Report paths: {'pdf_report': 'reports/data_report.pdf', 'excel_report': 'reports/data_report.xlsx'}
+2025-03-21 10:51:41,371 - INFO - 127.0.0.1 - - [21/Mar/2025 10:51:41] "POST /process HTTP/1.1" 200 -
+2025-03-21 10:51:54,213 - INFO - 127.0.0.1 - - [21/Mar/2025 10:51:54] "GET /view_freq_counts HTTP/1.1" 200 -
+2025-03-21 10:51:59,588 - INFO - 127.0.0.1 - - [21/Mar/2025 10:51:59] "GET /static/reports/data_report.pdf HTTP/1.1" 200 -
+2025-03-21 11:14:09,907 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 11:14:09,907 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 11:14:09,931 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-21 11:14:12,080 - WARNING -  * Debugger is active!
+2025-03-21 11:14:12,085 - INFO -  * Debugger PIN: 121-048-520
+2025-03-21 11:14:15,345 - INFO - 127.0.0.1 - - [21/Mar/2025 11:14:15] "GET / HTTP/1.1" 200 -
