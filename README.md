@@ -1,2 +1,3 @@
-# Flux-Data-Analysis-System-
+# Flux-Data-Analysis-System
 Make your data easy peasy!
+Flux is a modern, user-friendly data analysis platform I developed to streamline the process of analyzing diverse datasets. Built with Python and Flask, Flux allows users to upload data in CSV, Excel, or JSON formats through a sleek, dark-themed web interface. The platform validates and preprocesses the data handling missing values and normalizing numeric data before generating insightful outputs. Key features include dynamic visualizations (bar and scatter plots) using Plotly, summary statistics, frequency counts for categorical data, and automated PDF and Excel report generation. With robust error handling, logging, and a mobile-friendly design, Flux empowers users to gain actionable insights effortlessly, making it a valuable tool for data-driven decision-making.
